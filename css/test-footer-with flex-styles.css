@@ -1,0 +1,118 @@
+:root {
+	--first-text-color: #212121;
+	--second-text-color: #757575;
+	--my-white: #ffffff;
+	--accent-color: #2196f3;
+	--background-dark-color: #2f303a;
+	--main-bg: #f5f4fa;
+	--logo-second-part: #000000;
+}
+
+/*Убираем внешние и внутренние отступы*/
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+ol {
+	margin: 0;
+	padding: 0;
+}
+/*Убираем нижний отступ*/
+img {
+	display: block;
+}
+
+button {
+	cursor: pointer;
+}
+
+body {
+	font-family: Roboto, sans-serif;
+	font-size: 14px;
+	letter-spacing: 0.03em;
+	background-color: var(--my-white);
+	color: var(--first-text-color);
+}
+
+/* ==========COMPONENTS========== */
+
+.list {
+	list-style: none;
+}
+
+.link {
+	text-decoration: none;
+}
+
+.container {
+	width: 1200px;
+	padding-left: 15px;
+	padding-right: 15px;
+	margin: 0 auto;
+}
+
+/* ==========Footer Подвал (адрес, почта, телефон) index.html==========  */
+
+.footer-bg {
+	background: var(--background-dark-color);
+}
+
+.logo-footer {
+	color: var(--my-white);
+}
+
+.section.footer-bg {
+	padding-top: 60px;
+	padding-bottom: 60px;
+}
+
+.div-footer-flex {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+	align-items: flex-start;
+}
+
+.li-footer-item:not(:nth-child(3n)) {
+	margin-bottom: 9px;
+
+	background-color: green;
+}
+.a-footer-logo-link {
+	font-family: Raleway, sans-serif;
+	font-weight: 700;
+	font-size: 26px;
+	line-height: 1.19;
+	color: var(--accent-color);
+
+	margin-bottom: 20px;
+
+	background-color: red;
+}
+
+.a-footer-link-address {
+	font-style: normal;
+	line-height: 1.71;
+	color: var(--my-white);
+}
+
+.a-footer-link {
+	font-style: normal;
+	line-height: 1.71;
+	color: rgba(255, 255, 255, 0.6);
+
+	background-color: rgb(248, 144, 7);
+}
+
+.a-footer-link-address:hover,
+.a-footer-link-address:focus,
+.a-footer-link-address:active,
+.a-footer-link:hover,
+.a-footer-link:focus,
+.a-footer-link:active {
+	color: var(--accent-color);
+}
