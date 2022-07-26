@@ -580,7 +580,7 @@ body {
 	padding: 63px 24px;
 }
 
-.my-test2 {
+.main-item-all-services-box {
 	position: relative;
 	width: 370px;
 	height: 294px;
@@ -590,7 +590,7 @@ body {
 	overflow: hidden;
 }
 
-.my-test2:hover .main-item-all-services-overlay {
+.main-item-all-services-box:hover .main-item-all-services-overlay {
 	transform: translatey(0%);
 }
 
