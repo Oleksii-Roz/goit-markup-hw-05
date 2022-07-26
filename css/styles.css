@@ -602,8 +602,7 @@ body {
 
 .main-item-all-services-box {
 	position: relative;
-	/* width: 370px;
-	height: 294px; */
+
 	margin-left: auto;
 	margin-right: auto;
 
@@ -618,8 +617,7 @@ body {
 	position: absolute;
 	top: 0;
 	bottom: 0;
-	/* width: 370px;
-	height: 294px; */
+
 	background-color: rgba(33, 150, 243, 0.9);
 	padding: 0;
 	margin: 0;
