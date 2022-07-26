@@ -605,4 +605,5 @@ body {
 	margin: 0;
 
 	transform: translatey(100%);
+	transition: transform 250ms ease;
 }
