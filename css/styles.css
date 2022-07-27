@@ -179,6 +179,7 @@ body {
 
 	padding-top: 32px;
 	padding-bottom: 32px;
+
 	transition-property: color;
 	transition-duration: 250ms;
 	transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
@@ -206,6 +207,10 @@ body {
 	line-height: 1.14;
 	letter-spacing: 0.02em;
 	color: var(--second-text-color);
+
+	transition-property: color;
+	transition-duration: 250ms;
+	transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .header-link:hover,
@@ -411,6 +416,10 @@ body {
 	justify-content: center;
 	align-items: center;
 	color: var(--social-logo);
+
+	transition-property: color, background-color;
+	transition-duration: 250ms;
+	transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .clients:hover,
@@ -502,6 +511,10 @@ body {
 	color: var(--my-white);
 	background: rgba(255, 255, 255, 0.1);
 	border-radius: 50%;
+
+	transition-property: color, background-color;
+	transition-duration: 250ms;
+	transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .social-item:hover,
@@ -586,6 +599,10 @@ body {
 
 .main-item-all-services-link {
 	display: block;
+
+	transition-property: box-shadow;
+	transition-duration: 250ms;
+	transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .main-item-all-services-link:hover,
