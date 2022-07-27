@@ -274,6 +274,10 @@ body {
 
 	padding: 10px 32px;
 	align-items: center;
+
+	transition-property: background-color;
+	transition-duration: 1250ms;
+	transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .hero-btn:hover,
