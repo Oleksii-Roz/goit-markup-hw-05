@@ -623,29 +623,12 @@ body {
 
 .main-item-all-services-box {
 	position: relative;
-
-	/* margin-left: auto;
-	margin-right: auto; */
-
 	overflow: hidden;
 }
 
-/* .main-item-all-services-box:hover .main-item-all-services-overlay {
-	transform: translatey(0%);
-} */
 .main-item-all-services:hover .main-item-all-services-overlay {
 	transform: translatey(0%);
 }
-
-/* .main-item-all-services-link:hover .main-item-all-services-box,
-.main-item-all-services-link:hover .main-item-all-services-box {
-	transform: translatey(0%);
-}
-
-.main-item-all-services-link:hover .main-all-services-text-overlay,
-.main-item-all-services-link:hover .main-all-services-text-overlay {
-	transform: translatey(0%);
-} */
 
 .main-item-all-services-overlay {
 	position: absolute;
