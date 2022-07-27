@@ -642,4 +642,5 @@ body {
 
 	transform: translatey(100%);
 	transition: transform 250ms ease;
+	transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
