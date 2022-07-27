@@ -196,7 +196,7 @@ body {
 	width: 100%;
 	height: 4px;
 	position: absolute;
-	bottom: 0;
+	bottom: -2px;
 	background: var(--accent-color);
 	border-radius: 2px;
 }
@@ -547,8 +547,11 @@ body {
 	letter-spacing: 0.03em;
 	color: var(--first-text-color);
 	background: var(--main-bg);
-
 	padding: 6px 22px;
+
+	transition-property: box-shadow, color, background-color;
+	transition-duration: 250ms;
+	transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .main-filters-btn:hover,
