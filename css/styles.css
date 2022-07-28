@@ -643,7 +643,7 @@ body {
 
 /* ==========Модальное окно (Hero. Баннер, кнопка)========== */
 
-.hero-modal-bg {
+.hero-modal-backdrop {
 	position: fixed;
 	left: 0;
 	top: 0;
@@ -653,7 +653,7 @@ body {
 	transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1), visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.hero-modal-bg.is-hidden {
+.hero-modal-backdrop.is-hidden {
 	opacity: 0;
 	visibility: hidden;
 	pointer-events: 0;
