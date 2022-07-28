@@ -656,7 +656,6 @@ body {
 .hero-modal-backdrop.is-hidden {
 	opacity: 0;
 	visibility: hidden;
-	/* pointer-events: 0; */
 	pointer-events: none;
 }
 
