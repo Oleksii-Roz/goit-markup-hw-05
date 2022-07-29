@@ -186,9 +186,7 @@ body {
 	padding-top: 32px;
 	padding-bottom: 32px;
 
-	transition-property: color;
-	transition-duration: 250ms;
-	transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+	transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .header-nav-link:hover,
@@ -214,9 +212,7 @@ body {
 	letter-spacing: 0.02em;
 	color: var(--second-text-color);
 
-	transition-property: color;
-	transition-duration: 250ms;
-	transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+	transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .header-link:hover,
@@ -280,9 +276,7 @@ body {
 	padding: 10px 32px;
 	align-items: center;
 
-	transition-property: background-color;
-	transition-duration: 250ms;
-	transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+	transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .hero-btn:hover,
@@ -472,9 +466,7 @@ body {
 	align-items: center;
 	color: var(--social-logo);
 
-	transition-property: color, border;
-	transition-duration: 250ms;
-	transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+	transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .clients:hover,
@@ -522,18 +514,14 @@ body {
 	line-height: 1.71;
 	color: var(--my-white);
 
-	transition-property: color;
-	transition-duration: 250ms;
-	transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+	transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .a-footer-link {
 	line-height: 1.71;
 	color: rgba(255, 255, 255, 0.6);
 
-	transition-property: color;
-	transition-duration: 250ms;
-	transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+	transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .a-footer-link-address:hover,
@@ -574,9 +562,7 @@ body {
 	background: rgba(255, 255, 255, 0.1);
 	border-radius: 50%;
 
-	transition-property: color, background-color;
-	transition-duration: 250ms;
-	transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+	transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .social-item:hover,
@@ -616,9 +602,8 @@ body {
 	background: var(--main-bg);
 	padding: 6px 22px;
 
-	transition-property: box-shadow, color, background-color;
-	transition-duration: 250ms;
-	transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+	transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+		background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .main-filters-btn:hover,
@@ -663,9 +648,7 @@ body {
 .main-item-all-services-link {
 	display: block;
 
-	transition-property: box-shadow;
-	transition-duration: 250ms;
-	transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+	transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .main-item-all-services-link:hover,
@@ -702,6 +685,5 @@ body {
 	margin: 0;
 
 	transform: translatey(101%);
-	transition: transform 250ms;
-	transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+	transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
