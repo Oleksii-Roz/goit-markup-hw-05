@@ -678,6 +678,7 @@ body {
 	color: var(--my-white);
 	text-align: left;
 	padding: 63px 24px;
+	overflow: auto;
 }
 
 .main-item-all-services-box {
