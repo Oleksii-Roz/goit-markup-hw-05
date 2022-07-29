@@ -334,12 +334,12 @@ body {
 
 .hero-modal-btn:hover,
 .hero-modal-btn:focus {
-	border-color: rgba(0, 0, 0, 0.5);
+	border-color: var(--accent-color);
 }
 
 .hero-modal-btn:hover .modal-close-btn-icon,
 .hero-modal-btn:hover .modal-close-btn-icon {
-	fill: rgba(0, 0, 0, 0.5);
+	fill: var(--accent-color);
 }
 
 /* ==========Наши основные особенности index.html========== */
