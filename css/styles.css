@@ -675,7 +675,8 @@ body {
 	overflow: hidden;
 }
 
-.main-item-all-services:hover .main-item-all-services-overlay {
+.main-item-all-services:hover .main-item-all-services-overlay,
+.main-item-all-services:focus .main-item-all-services-overlay {
 	transform: translatey(0%);
 }
 
