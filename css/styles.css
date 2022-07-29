@@ -328,6 +328,18 @@ body {
 	border-radius: 50%;
 	background: var(--my-white);
 	border: 1px solid rgba(0, 0, 0, 0.1);
+	border-color: transparent;
+	transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.hero-modal-btn:hover,
+.hero-modal-btn:focus {
+	border-color: red;
+}
+
+.hero-modal-btn:hover .modal-close-btn-icon,
+.hero-modal-btn:focus .modal-close-btn-icon {
+	fill: red;
 }
 
 /* ==========Наши основные особенности index.html========== */
