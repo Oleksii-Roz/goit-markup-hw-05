@@ -599,6 +599,10 @@ body {
 
 /* ==========Main portfolio.html========== */
 /* ==========Фильтры на странице portfolio.html========== */
+.section .main-filters-flex {
+	padding-top: 80px;
+}
+
 .main-filters-btn {
 	font-family: inherit;
 	font-weight: 500;
