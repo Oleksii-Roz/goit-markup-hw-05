@@ -116,12 +116,6 @@ body {
 .header-bg {
 	background: var(--my-white);
 	border-bottom: 1px solid #ececec;
-
-	position: fixed;
-	width: 100%;
-	/* left: 0;
-	right: 0; */
-	z-index: 100;
 }
 
 .header-bg-flex {
@@ -598,10 +592,6 @@ body {
 
 /* ==========Main portfolio.html========== */
 /* ==========Фильтры на странице portfolio.html========== */
-.section-padding-header {
-	padding-top: 174px;
-	padding-bottom: 94px;
-}
 
 .main-filters-btn {
 	font-family: inherit;
